@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ColetaDados</string>
+    <string name="nome">Informe o seu nome</string>
+    <string name="idade">Informe a idade</string>
+    <string name="profissao">Informe sua profissão</string>
+    <string name="infoDados">Clique para exibir os dados</string>
+</resources>

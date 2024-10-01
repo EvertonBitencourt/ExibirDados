@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/nomeEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:inputType="textPersonName"
+        android:hint="@string/nome">
+    <requestFocus/>
+    </EditText>
+
+    <EditText
+        android:id="@+id/idadeEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:inputType="textPersonName"
+        android:hint="@string/idade">
+        <requestFocus/>
+    </EditText>
+
+    <EditText
+        android:id="@+id/profissaoEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:inputType="textPersonName"
+        android:hint="@string/profissao">
+        <requestFocus/>
+    </EditText>
+
+    <Button
+        android:id="@+id/infoDados"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:text="@string/infoDados"
+        android:onClick="mostrarDados"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/infoDadosTextView"/>
+
+</LinearLayout>
